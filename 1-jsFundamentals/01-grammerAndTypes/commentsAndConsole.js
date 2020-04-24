@@ -1,0 +1,31 @@
+// COMMENTS
+
+/*
+    How Do we make a comment in JavaScript?
+        - Comments can either be noted in a Single-Line or Multi-Line syntax.  This looks like this:
+*/
+
+    //  SINGLE LINE
+
+    /*
+        MULTI-LINE
+    */
+
+/*
+    What do comments in our code do for us?
+        - We primarily use comments in our code to make note of a process we are attempting to complete.  This could be something we plan to build, what we intended a process or function to do, or simply give us quick reference points in our code so we can locate something later on.
+        
+        - Comments help us communicate not only with others who may be looking over our code to quickly understand what we intend, but also to help FUTURE YOU to understand what you intended when you were writing your code.
+        
+        - There are also many different Extensions that you can find in VSCode that can help with your comments (as with many other things).  A couple I like are "Comment Anchors" and "Better Comments".
+
+        NOTE:  By the end of this course, you WILL look at your past projects and wonder what you were thinking.  It will be a fun activity later on.  Think of it like a childhood drawing...
+
+*/
+
+//* Moving forward, I will use "Better Comments" to highlight some contents.
+
+//! THE CONSOLE
+
+// 
+
