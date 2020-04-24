@@ -1,1 +1,8 @@
-Test
+Resources:
+ - GrammerAndTypes
+    MDN Docs: https://developer.mozilla.org
+    Console Log: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
+    Naming a Variable: https://www.w3schools.com/js/js_reserved.asp
+    Numbers: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+             https://www.w3schools.com/js/js_numbers.asp
+    

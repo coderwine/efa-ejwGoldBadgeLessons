@@ -27,5 +27,24 @@
 
 //! THE CONSOLE
 
-// 
+/*
+    * What is the console used for?
+     - This will be the main source how where we will debug our code.
+     - We can place messages within it to help us "walk" through our code.
+ */
 
+//  Example 1:  Setting a Message
+let name = 'Your Name Here';
+console.log(name);
+
+// Example 2:  Walking through a process
+let num = 10;
+console.log(num);
+num--;
+console.log(num);
+num--;
+console.log(num);
+num++;
+console.log(num);
+
+// NOTE: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
