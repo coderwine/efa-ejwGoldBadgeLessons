@@ -5,4 +5,17 @@ Resources:
     Naming a Variable: https://www.w3schools.com/js/js_reserved.asp
     Numbers: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
              https://www.w3schools.com/js/js_numbers.asp
-    
+    Scope:  https://scotch.io/tutorials/understanding-scope-in-javascript
+    Hoisting: https://scotch.io/tutorials/understanding-hoisting-in-javascript
+
+STOPPING POINTS
+-------------------------------------------------------------------------------
+
+
+ORDER OF LESSONS:
+1. Comments & the Console.
+2. Declarations
+3. Types 
+4. Scope 
+5. Hoisting
+6. Literals
