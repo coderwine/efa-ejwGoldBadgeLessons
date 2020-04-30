@@ -126,4 +126,32 @@ console.log(sandwhich[2])  //? What value should I expect?
 
 //? What if I did a typeof sandwhich?
 console.log(typeof sandwhich);
-// JS returned "object" because arrays are built within objects in JavaScript.  
+// JS returned "object" because arrays are built within objects in JavaScript.
+
+//* CHALLENGE
+//* Write a variable, using the let keyword, of each variable name and type.
+//* Create an object that holds three key/value pairs ('Slimer','Stay Puff','Zuul').
+//* Create a variable that holds an array of 4 values ('Egon', 'Ray', 'Peter', 'Winston').
+//* Make three console logs:
+//*    1) using concatenation, combine 3 of variables.
+//*    2) using string interpolation, inlcude two variables, the value of the second key in your object, and the 2nd index of your array.
+//*    3) the 'type of' one of your variables.
+
+let string = 'string';
+let nothing = undefined;
+let zero = null;
+let number = 10;
+let boolean = true;
+
+let aintAfraidOfNo = {
+    one: 'Slimer',
+    two: 'Stay Puff',
+    three: 'Zuul'
+};
+
+let ghostBusters = ['Egon', 'Ray', 'Peter', 'Winston'];
+
+console.log(string + ' ' + boolean + ' ' + number);
+console.log(`${ghostBusters[1]} said he had ${zero} idea and an ${nothing} reason for thinking about ${aintAfraidOfNo.two}...`);
+console.log(typeof boolean);
+

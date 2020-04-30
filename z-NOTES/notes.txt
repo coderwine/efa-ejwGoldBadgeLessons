@@ -16,6 +16,10 @@ Resources:
 -Loops
     https://www.w3schools.com/js/js_loop_for.asp
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+    https://www.tutorialrepublic.com/javascript-tutorial/javascript-loops.php
+    https://www.javatpoint.com/javascript-loop
+
+
 
 
 *****************************************
@@ -28,8 +32,8 @@ Resources:
 
 ORDER OF LESSONS:
 Grammer And Types
-    01. Comments & the Console.  *need to include a challenge
-    02. Declarations *need to include a challenge
+    01. Comments & the Console.  
+    02. Declarations 
     03. Types *need to include a challenge
     04. Scope *need to include a challenge
     05. Hoisting  *need to include a challenge
@@ -47,9 +51,12 @@ Control Flow and Error
 Loops
     12. forLoops
     13. forInLoops
-    14. forOfLoops  *need to include a challenge
+    14. forOfLoops  
 
 STOPPING POINTS
 -------------------------------------------------------------------------------
-FOR-OF LOOPS
+Building challenges for what I currently have
+
+- While 
+- do While
 

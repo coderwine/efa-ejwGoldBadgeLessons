@@ -28,7 +28,7 @@
 //! THE CONSOLE
 
 /*
-    * What is the console used for?
+    ? What is the console used for?
      - This will be the main source how where we will debug our code.
      - We can place messages within it to help us "walk" through our code.
  */
