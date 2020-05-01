@@ -40,3 +40,16 @@ console.log(y);
 
 //? Please note that these are not the ONLY operators available to us but rather the more common ones.  I have a link (in my notes file) to the MDN docs that lists out all sorts of different operators.  I would highly suggest looking these over whenever you get the chance.  At this point, these are good launching points in understanding what assignment operators are capable of doing for us.
 
+//* CHALLENGE
+//* Convert the following variables using assignment operators and console log each result
+
+let convertThis = 10;
+
+// convertThis = 10 + 2;
+convertThis += 2  
+console.log(convertThis);
+
+// convertThis = 10 * 4;
+convertThis *= 4;
+console.log(convertThis);
+

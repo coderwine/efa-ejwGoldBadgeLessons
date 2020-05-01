@@ -130,3 +130,29 @@ function varScope() {
 varScope();
 console.log(x);
 
+
+//* CHALLENGE
+//* Regarding the below code, what should we expect to be the result of our console.log?
+//? consider this as an interactive challenge.  Start the first aspect with the console.log outside of the addThisAlso function.  Possible build this in a "Kahoot" question...
+
+
+let numOne = 1;
+
+function addThis () {
+    let numTwo = 2;    
+    
+    // let value = numTwo + numThree
+    function addThisAlso () {
+        let numThree = 3; 
+        let value =  numOne + numThree
+        
+        console.log(value); // what should we expect?
+    }
+
+   addThisAlso();
+//    console.log(value)  // What should we expect?
+}
+
+addThis();
+
+

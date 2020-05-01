@@ -48,3 +48,23 @@ num++;
 console.log(num);
 
 // NOTE: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
+
+//*CHALLENGE
+//* For the below statements, use a single line comment and a multiline comment to separate these so they don't break our code.  Console log the results.
+//! UNCOMMENT THIS OUT PRIOR TO GIVING THIS CHALLENGE!!!!!
+//? Perhaps make this a Kahoots question
+//? The x variable is provided
+
+// This is a simple comment.
+let x = 1; 
+
+
+/*
+    Here is a list of ideas for the x variable:
+        1.  Perhaps it should be 10.
+        2.  Increase by 1
+        3.  Some other information
+
+*/
+
+console.log(x);

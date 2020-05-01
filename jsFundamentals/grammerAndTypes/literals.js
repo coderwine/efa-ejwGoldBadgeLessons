@@ -7,6 +7,7 @@
 //array examples
 let array = ['first', 'second','third'];  // The elements within it are the literals of this array.  
 //? Currently we have 3 elements and they are separated with commas.  We can also note the same value of elements like this:
+
 let array2 = [1, , 3];  // We currently still have the same length within this array.  We have just declared that the second element is empty but still existing. 
 
 //A literal starts with an index of 0 and counts up from there.
@@ -77,3 +78,20 @@ let carlot = {
         preOwned: true
     }
 }
+
+//* Challenge
+//* Write an example of a Primitive Array Literal.
+//* Write an example of a Complex Object Literal.
+
+let complexObj = {
+    name: 'Eric',
+    age: 36,
+    home: {
+        wife: 'Anna',
+        kids: true,
+        kidNames: ['Lilly', 'Everly'],
+        pets: 1
+    }
+};
+
+let berries = ['Strawberry', 'blueberry', 'raspberry'];

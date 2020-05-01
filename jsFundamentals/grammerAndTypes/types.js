@@ -141,17 +141,17 @@ let string = 'string';
 let nothing = undefined;
 let zero = null;
 let number = 10;
-let boolean = true;
+let bool = true;
 
 let aintAfraidOfNo = {
     one: 'Slimer',
-    two: 'Stay Puff',
+    two: 'Stay Puff Marshmallow Man',
     three: 'Zuul'
 };
 
 let ghostBusters = ['Egon', 'Ray', 'Peter', 'Winston'];
 
-console.log(string + ' ' + boolean + ' ' + number);
-console.log(`${ghostBusters[1]} said he had ${zero} idea and an ${nothing} reason for thinking about ${aintAfraidOfNo.two}...`);
-console.log(typeof boolean);
+console.log(string + ' ' + bool + ' ' + number);
+console.log(`${ghostBusters[1]} said his mind was ${zero} and had an ${nothing} reason for thinking about the ${aintAfraidOfNo.two}...`);
+console.log(typeof bool);
 

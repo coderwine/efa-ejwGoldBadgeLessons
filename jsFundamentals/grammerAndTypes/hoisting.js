@@ -91,3 +91,25 @@ function hoistedFunc() {
 // }
 
 //? Considering that declarations are pulled to the top, JS reads the assignment as a variable and not a function and therefore fives us a TypeError.
+
+//* CHALLENGE
+//* What causes hoisting?  
+// JS pulls all variables and function calls to the top of the document.  This results in variables being declared but not assigned.
+//* You can any keyword for your variable.  
+// False  - let and const are set keywords created in ES6 that doesn't allow hoisting.
+//? This may be a question that can put into Kahoot
+
+//? What should I expect from this console log?
+console.log(simpson);
+
+var simpson = 'Homer';
+
+
+//?  What allows for this to work?
+simpson();
+
+function simpson() {
+    console.log('Homer');
+}
+
+
