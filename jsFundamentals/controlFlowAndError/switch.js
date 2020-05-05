@@ -68,3 +68,66 @@ switch(switchConditional == 'string' || typeof switchConditional == 'boolean') {
     default:
         console.log(`${switchConditional} is NOT a string or boolean.`)
 }
+
+//* CHALLENGE
+//* Create a 'grade' variable that holds a string value of 'A,B,C,D or F.
+//* Create a switch statement that passes that variable to check.  Depending on the grade, console log a string result that indicates what they need (ex: A = 'Passed!', F = 'Failing', etc.).   
+
+let grade = 'B';
+
+switch (grade) {
+    case 'A':
+        console.log('Passed!')
+        break;
+    case 'B':
+        console.log('Almost there!')
+        break;
+    case 'C':
+        console.log('Could use a little more study time.')
+        break;
+    case 'D':
+        console.log('Time to put in some extra work.')
+        break;
+    case 'F':
+        console.log('Failing...')
+        break;
+    default:
+        console.log('Grades should be A,B,C,D, or F.')
+};
+
+
+//*Challenge 2:
+//*  Create a similar switch statement that takes in a value (number) that represents a grade.  If it is True, console log that they are passing with the correct letter grade.
+
+/*
+*   A: 89-100
+*   B: 79-88
+*   C: 66-78
+*   D: 59-65
+*   F: 0-59
+*/
+
+let grade = 78;
+
+switch(true) {
+    case grade > 89:
+        console.log('Passing with an A!')
+        break;
+    case grade > 79:
+        console.log('Passing with a B!')
+        break;
+    case grade > 66:
+        console.log('Passing with a C!')
+        break;
+    case grade > 59:
+        console.log('Passing with a D!')
+        break;
+    case grade < 59:
+        console.log('With a F, you are failing...')
+        break;
+    default:
+        console.log('Please insert a value...')
+};
+
+
+

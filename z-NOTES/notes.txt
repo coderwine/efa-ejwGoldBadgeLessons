@@ -1,5 +1,5 @@
 Resources:
- - GrammerAndTypes
+ - Grammer And Types
     MDN Docs: https://developer.mozilla.org
     Console Log: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
     Naming a Variable: https://www.w3schools.com/js/js_reserved.asp
@@ -13,6 +13,7 @@ Resources:
 -Control Flow and Error:
     If & IF/ELSE: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
     Ternaries: https://www.thoughtco.com/javascript-by-example-use-of-the-ternary-operator-2037394
+    Switch: https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript
 -Loops
     https://www.w3schools.com/js/js_loop_for.asp
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
@@ -40,13 +41,13 @@ Grammer And Types
     06. Literals  
 
 Expressions And Operators
-    07. Assignment Operators  *need to include a challenge
-    08. Comparison Operators  *need to include a challenge
+    07. Assignment Operators  
+    08. Comparison Operators  
 
 Control Flow and Error
-    09. If, IF/ELSE, and ELSE/IF  *need to include a challenge
-    10. Switch  *need to include a challenge
-    11. Ternaries  *need to include a challenge
+    09. If, IF/ELSE, and ELSE/IF
+    10. Switch  
+    11. Ternaries  
 
 Loops
     12. forLoops

@@ -45,11 +45,11 @@ console.log(y);
 
 let convertThis = 10;
 
-// convertThis = 10 + 2;
+// convertThis = 10 + 2;  //PROVIDED
 convertThis += 2  
 console.log(convertThis);
 
-// convertThis = 10 * 4;
+// convertThis = 10 * 4;  //PROVIDED
 convertThis *= 4;
 console.log(convertThis);
 

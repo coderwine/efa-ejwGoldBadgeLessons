@@ -24,6 +24,23 @@ if(weather < 70 && rain != false) {
     console.log('It is a little chilly and will possibly rain.');
 }
 
+//*CHALLENGE
+/* 
+* Create two variables each with a value of:
+*    1) 'is the night'
+*    2) true
+
+* Create an if statement that returns true and console log 'Batman'
+*/ 
+
+let batman = 'is the night';
+let bruce = true;
+
+if(batman == 'is the night' && bruce === true){
+    console.log('BATMAN!');
+}
+
+
 //! IF ELSE 
 //? Perhaps we want to evaluate a question and provide an option for either the "yes" and "no" of that answer.  EX: "If your are tired, sleep.  If not, go for a walk."  If/Else statements allow us this ability to write out a chain of events.
 
@@ -82,4 +99,31 @@ if(age >= 25){
     console.log('yay! you can vote!');
 } else {
     console.log('Sorry, you are too young to do anything fun!')
+}
+
+
+//* CHALLENGE
+/*
+* Create a variable named "vader" and give it a string value of 1 of the three values:
+*   1) 'Luke, your father I am'
+*   2) 'No, I am your father.'
+*   3) 'Luke, I am your father.'
+
+* Create an if else statement that passes through these three values and console logs either True or False.  
+*/
+
+let vader = 'No, I am your father.';
+let luke = 'NOOOOOOO!'  //? for my own fun - not including in the challenge
+
+if(vader === 'Luke, I am your father') {
+    console.log(false);
+    console.log('Misquoted');
+} else if(vader === 'Luke, your father I am.') {
+    console.log(false);
+    console.log('Misquoted you are.');
+} else if(vader === 'No, I am your father.'){
+    console.log(true)
+    console.log(`Luke screams, '${luke}'`)
+} else {
+    console.log(false)
 }
