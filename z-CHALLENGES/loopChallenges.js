@@ -40,3 +40,26 @@ for(let animal of animals) {
 
 
 //!--------------------------------------------------------------------------------------------------
+
+//NOTE
+//! WHILE LOOP
+
+//*CHALLENGE
+/*
+* Create two variables, 'runner' with a value of 0 and 'lap' with a value of 10.
+
+* Within a while loop, console log each pass the runner goes around in a lap.  Consider that the runner will be going around until there no more laps to complete.  While they take a lap, console log the position of laps.  The final console log should detail how many laps the runner has taken.
+*/
+
+
+let runner = 0;
+let lap = 10;
+
+while (lap > 0) {
+    lap === 10 ? console.log(`The runner starts at ${lap} laps!`) : null;
+
+    runner++;
+    lap--;
+
+    runner < 4 ? console.log(`With ${lap} laps to go, the runner is feeling good`) : runner <= 9 ? console.log(`With ${lap} laps to go, the runner is really sweating now.`) : runner === 10 ? console.log(`The runner has gone ${runner} laps and is ready for some water.`) : console.log(`Do you even jog?`);
+};

@@ -53,11 +53,11 @@ Loops
     12. forLoops
     13. forInLoops
     14. forOfLoops  
+        * whileLoops
+        *doWhileLoops
 
 STOPPING POINTS
 -------------------------------------------------------------------------------
-Building challenges for what I currently have
-
-- While 
 - do While
+    - wrapping up the Do/While Loops w/ Challenges.
 
