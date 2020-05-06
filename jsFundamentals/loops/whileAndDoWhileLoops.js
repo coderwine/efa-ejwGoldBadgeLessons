@@ -63,7 +63,7 @@ while (lap > 0) {
 
 //!DO... WHILE LOOP
 
-//? A Do/While Loop works in very much the same fashion but is formated to run the statement first.
+// A Do/While Loop works in very much the same fashion but is formated to run the statement first.  This means that the statement will at least run once and THEN check the condition.  If the condition is TRUE, it will run the code again until it is no longer True
 
 do {
     statement
@@ -76,7 +76,20 @@ let x = 0;
 do {
     x = x + 1;
     buildString = buildString + x;
+    console.log(buildString);
 } while (x < 10)
 
 console.log(buildString);
 
+//? In this block of code, we should always expect to see the string grow until the condition is met.  But what if we made a condition that isn't possible to be met?  If I change the while condition to be 'x === "a"', what should I expect?
+
+let buildString = '';
+let x = 0;
+
+do {
+    x = x + 1;
+    buildString = buildString + x;
+    console.log(buildString);
+} while (x === 'a');
+
+console.log(buildString);

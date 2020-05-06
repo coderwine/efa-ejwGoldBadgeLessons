@@ -1,5 +1,5 @@
 Resources:
- - Grammer And Types
+- Grammer And Types
     MDN Docs: https://developer.mozilla.org
     Console Log: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
     Naming a Variable: https://www.w3schools.com/js/js_reserved.asp
@@ -19,7 +19,9 @@ Resources:
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
     https://www.tutorialrepublic.com/javascript-tutorial/javascript-loops.php
     https://www.javatpoint.com/javascript-loop
-
+    While/Do-While: https://www.tutorialgateway.org/difference-between-javascript-while-and-do-while-loop/
+-Functions
+    Anonymous Functions: https://riptutorial.com/javascript/example/726/anonymous-function
 
 
 
@@ -56,8 +58,10 @@ Loops
         * whileLoops
         *doWhileLoops
 
+functions
+    15. functionDeclarations
+
 STOPPING POINTS
 -------------------------------------------------------------------------------
-- do While
-    - wrapping up the Do/While Loops w/ Challenges.
+arrow functions
 

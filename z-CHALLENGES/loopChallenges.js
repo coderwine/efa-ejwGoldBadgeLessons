@@ -63,3 +63,26 @@ while (lap > 0) {
 
     runner < 4 ? console.log(`With ${lap} laps to go, the runner is feeling good`) : runner <= 9 ? console.log(`With ${lap} laps to go, the runner is really sweating now.`) : runner === 10 ? console.log(`The runner has gone ${runner} laps and is ready for some water.`) : console.log(`Do you even jog?`);
 };
+
+
+//!--------------------------------------------------------------------------------------------------
+
+//NOTE
+//! DO/WHILE LOOP
+
+//*CHALLENGE
+/*
+* Create two variables, 'runner' with a value of 0 and 'lap' with a value of 10.
+
+* Within a do/while loop, console log each pass the runner goes around in a lap.  In this case, make it so that the runner does 4 laps and stops.
+*/
+
+let runner = 0;
+let lap = 10;
+
+do{
+    lap = lap - 1;
+    runner = runner + 1;
+
+    console.log(`The runner has gone ${runner} lap(s).`)
+} while (runner < 4);
