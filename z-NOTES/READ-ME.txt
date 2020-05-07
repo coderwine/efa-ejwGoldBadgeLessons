@@ -22,8 +22,10 @@ Resources:
     While/Do-While: https://www.tutorialgateway.org/difference-between-javascript-while-and-do-while-loop/
 -Functions
     Anonymous Functions: https://riptutorial.com/javascript/example/726/anonymous-function
-
-
+    Arrow Functions: https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc
+                https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+-Arrays
+    
 
 *****************************************
 //  notes for students
@@ -58,10 +60,15 @@ Loops
         * whileLoops
         *doWhileLoops
 
-functions
+Functions
     15. functionDeclarations
+    16. arrowFunctions
+
+Arrays
+    17. populating&Referring.js
+
 
 STOPPING POINTS
 -------------------------------------------------------------------------------
-arrow functions
+arrays
 

@@ -33,4 +33,40 @@ buildList(users);
 //!--------------------------------------------------------------------------------------------------
 
 //NOTE
-//!
+//! ARROW FUNCTIONS
+//*CHALLENGE
+//* Write the below function as a concise pass the variables as listed:
+
+let hero = 'Robin Hood';
+let nock = 1;
+
+// function shot(x,y) {
+//     y < 3 ? console.log(`${x} only shot ${y} arrow...`) : console.log(`${x} shot ${y} arrows at the target!`);
+// };
+
+// shot(hero,nock);
+
+//* Using a concise body, provide the same results as the declared function above.
+
+// let shot = (x,y) => y < 3 ? console.log(`${x} only shot ${y} arrow...`) : console.log(`${x} shot ${y} arrows at the target!`);
+
+// shot(hero,nock);
+
+//* Using a Block Body, pass the same variables but increase the number of shots until the second console log is returned.
+
+let shoot = (x,y) => {
+
+    for(i=y; i<=3; i++ ){
+        y = i
+        console.log(`${x} shoots arrow number ${y}...`)
+    }
+
+    if(y < 3) {
+        console.log(`${x} only shot ${y} arrow...`);
+    } else {
+        console.log(`${x} shot ${y} arrows at the target!`)
+    }
+    
+}
+
+shoot(hero,nock);
