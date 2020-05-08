@@ -1,0 +1,15 @@
+From Trello:
+Gold:
+Strengthen:
+    - Functions, Parameters, & Callback Functions
+    - Constructors Functions
+    - Async/Await
+
+New Lessons:
+    - Classes
+    - NEW API Assignment
+    - 2 additional Repl Challenges for wk 4
+    - DOM Manipulation (lesson rework)
+    - Async/Await (lesson rework)
+    - Array Methods & Destructuring(lesson reworkd)
+    - Constructor Functions(lesson rework)

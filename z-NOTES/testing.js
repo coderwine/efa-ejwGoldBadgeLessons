@@ -13,5 +13,3 @@ let placement = (colors, end) => {
 
 placement(colors, suffix);
 
-//Changed this
-let x = 1;
