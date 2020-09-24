@@ -23,6 +23,7 @@ switch(instructor) {
     default:
         console.log(`Sorry, I can't find what ${instructor} teaches.`)
 };
+
 //? Once each case has been evaluated and we return a result, we need to note to "break" out from our switch statement, otherwise we would continue on through our statements and produce those results as well.
 
 //ex:

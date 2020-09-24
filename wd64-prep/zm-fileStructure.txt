@@ -1,0 +1,75 @@
+Folder structure:
+        - How to view folders in command prompt (dir/ls)
+        - How to make a new folder (mkdir)
+
+        javascriptSeptember2019
+          javascriptLibrary
+            0-prework   <-------------- SHOULD BE COMPLETE
+                1-htmlBasics
+                2-cssBasics
+                3-jsBasics
+            1-jsFundamentals <-------- WE START HERE. In CMD: mkdir 1-jsFundamentals
+              00-dayOne <-------- cd into jsFundamentals: mkdir 00-dayOne
+              01-grammar&Types
+                01-comments.js
+                02-declarations.js
+                03-types.js
+                04-scope.js
+                05-hoisting.js
+                06-literals.js
+              02-controlFlow&Error
+                01-if.js
+                02-ifElse.js
+                03-switch.js
+                04-ternary.js
+              03-loops
+                01-forLoops.js
+                02-forInLoops.js
+                03-forOfLoops.js
+              04-functions
+                01-declarations.js
+                02-expressions.js
+                03-callingFunctions.js
+                05-parameters.js
+                09-arrowFunctions.js
+              05-expressionsAndOperators
+                01-assignmentOperators.js
+                02-comparisonOperators.js
+                03-ternaries.js
+              09-arrays
+                02-populating&Referring.js
+                03-length.js, 04-iterating.js
+                05-methods.js
+              11-objects
+            2-Projects
+              WebPageTutorial(Folder)
+              Portfolio(Folder)
+              API(Folder)
+            4-DOM Manipulation
+              index.html
+              index.js
+            5-API
+              1-Intro to API
+                api.js
+                index.html
+              2-ASYNC programming & REST
+                index.js
+              3-API Apps
+                01 Star-Wars
+                  index.html
+                  star-wars-script.js
+                02-Unsplash
+                  index.html
+                  random-photo-fetch.js
+                03-NYT
+                  nyt.html
+                  nyt.js
+                  nyt.css
+                04-GitHub     *https://api.github.com/users/henAutumn*
+                  github.html
+                  github.js
+                05-YouTube
+                  youtube.html
+                  youtube.js
+              4-API Team Walkthrough
+              5-API Challenge

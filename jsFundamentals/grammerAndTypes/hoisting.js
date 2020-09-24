@@ -6,6 +6,7 @@
     - JS pulls all variables and functions calls to the 'top' of their respective scope prior to being executed.
     - Only the declaration is pulled up, not the assignments.
 
+    ? Consider like a Table of Contents at the beginning of a book.  We can, at a glimps, recognize that there are topics that we will go over; however, we don't know the exact details of these things just yet.
 */
 
 console.log(hoistedVar);
@@ -90,7 +91,7 @@ function hoistedFunc() {
 //     console.log('Works?')
 // }
 
-//? Considering that declarations are pulled to the top, JS reads the assignment as a variable and not a function and therefore fives us a TypeError.
+//? Considering that declarations are pulled to the top, JS reads the assignment as a variable and not a function and therefore gives us a TypeError.
 
 //* CHALLENGE
 //* What causes hoisting?  
